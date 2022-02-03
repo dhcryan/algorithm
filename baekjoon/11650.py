@@ -1,8 +1,9 @@
+import sys
 n=int(input())
 arr=[]
 for i in range(n):
     [row,col]=map(int,input().split())
     arr.append([row,col])
-arr=sorted(arr)
-for i in range(n):
-    print(arr[i][0],arr[i][1])
+arr.sort(key=lambda x:(x[0],x[1]))
+for i in arr:
+    print(i[0],i[1])
