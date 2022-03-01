@@ -1,27 +1,24 @@
-R, C = map(int, input().split())
-
-MAP = [list(input()) for _ in range(R)]
-dx, dy = [-1, 0, 1, 0], [0, -1, 0, 1]
-
-ck = False
-
-for i in range(R):
-    for j in range(C):
-        if MAP[i][j] == 'W':
+r,c=map(int,input().split())
+graph=[list(input()) for _ in range(r)]
+check=False
+dx=[-1,1,0,0]
+dy=[0,0,-1,1]
+for x in range(r):
+    for y in range(c):
+        if graph[x][y]=='W':
             for k in range(4):
-                ii, jj = i + dx[k], j + dy[k]
-                if ii < 0 or ii == R or jj <0 or jj == C:
-                    continue
-                if MAP[ii][jj] =='S':
-                    ck = True
-
-if ck:
-    print(0)
+                nx=x+dx[k]
+                ny=y+dy[k]
+                if 0 <= nx < r and 0 <= ny < c:
+                    if graph[nx][ny] == 'S':
+                        check = True
+        elif graph[x][y]=='S':
+            continue
+        else:
+            graph[x][y]='D'
+if check==True:
+    print('0')
 else:
-    print(1)
-    for i in range(R):
-        for j in range(C):
-            if MAP[i][j] not in 'SW':
-                MAP[i][j] = 'D'
-    for i in MAP:
-        print(''.join(i))
+    print('1')
+    for i in range(r):
+        print(''.join(graph[i]))
