@@ -20,3 +20,5 @@ def dfs(start_v):
 dfs(1)
 for i in range(2,n+1):
     print(parent_answer[i])
+
+    #의문점 :왜 pypy3에서만 통과하지..설마 setrecursionlimit때문?

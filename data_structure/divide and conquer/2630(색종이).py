@@ -3,8 +3,6 @@ N = int(input())
 graph = [list(map(int, input().split())) for _ in range(N)]
 result = []
 white, blue = 0, 0
-
-
 def search(x, y, n):
     global blue, white
     color = graph[x][y]

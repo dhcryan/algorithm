@@ -1,7 +1,7 @@
 n=int(input())
 m=int(input())
 
-graph=[[]*n for _ in range(n+1)]
+graph=[[] for _ in range(n+1)]
 visited=[False]*(n+1)
 for _ in range(m):
     i,j=map(int,input().split())

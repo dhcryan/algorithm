@@ -35,4 +35,5 @@ for _ in range(n):
     arr.append(int(input()))
 arr = mergesort(arr)
 for i in arr:
+    
     print(i)
