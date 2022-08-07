@@ -10,3 +10,5 @@ def dfs(start):
             dfs(i + 1)
             s.pop()
 dfs(1)
+
+#15649와의 차이 : https://jiwon-coding.tistory.com/22
