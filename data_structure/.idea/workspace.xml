@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec13caf8-d24c-4a66-a407-87e02c5ab591" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backtracking/15656.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtracking/14712.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtracking/15657.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtracking/15663.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtracking/15655.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtracking/15655.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +25,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/divide and conquer/2630(색종이).py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backtracking/15663.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backtracking/14712.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/binary_search/Test.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backtracking/15649.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backtracking/15657.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backtracking/15655.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backtracking/15650.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backtracking/15656.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2ClEXrsOFjV1jRY8ny7Cx3rDZft" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -35,22 +45,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backtracking/15656.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backtracking/15663.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
-    <configuration name="15656" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="15663" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\dhc40\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\pythonProject1\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backtracking" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtracking/15656.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtracking/15663.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />

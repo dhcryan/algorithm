@@ -9,8 +9,6 @@ def solve(idx):
         print(' '.join(map(str,solved)))
         return
     for i in range(idx,len(str1)):
-        if visited[i]==True:
-            continue
         solved.append(str1[i])
         solve(i + 1)
         solved.pop()
